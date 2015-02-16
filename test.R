@@ -12,4 +12,3 @@ print(net.results$net.result)
 cleanoutput<-cbind(testdata,sqrt(testdata),as.data.frame(net.results$net.result))
 colnames(cleanoutput) <- c("Input","Expected Output","Neural Net Output")
 print(cleanoutput)
-
